@@ -1,0 +1,23 @@
+package mobile;
+
+public class Ltab extends Mobile{
+
+	public Ltab() {
+		super();
+	}
+
+	public Ltab(String mobileName, int batterySize, String osType) {
+		super(mobileName, batterySize, osType);
+	}
+
+	public int operate(int time) {
+		return 1;
+	}
+	
+	public int charge(int time) {
+		return  - (time * 10);
+	}
+	
+	
+	
+}

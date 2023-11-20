@@ -1,0 +1,24 @@
+package mobile;
+
+public class Otab extends Mobile{
+
+	public Otab() {
+		super();
+	}
+
+	public Otab(String mobileName, int batterySize, String osType) {
+		super(mobileName, batterySize, osType);
+	}
+	
+	public int operate(int time) {
+		return 1;
+	}
+	
+	public int charge(int time) {
+		int battery = getBatterySize() + (time * 8);
+		setBatterySize(battery);
+		return battery;
+	}
+	
+	
+}

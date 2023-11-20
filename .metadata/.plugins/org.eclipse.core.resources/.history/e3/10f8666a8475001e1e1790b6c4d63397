@@ -1,0 +1,36 @@
+package compony;
+
+public class Compony {
+	private double salary;
+	private double annulIncome;
+	private double bonus;
+	private double afterTaxBonus;
+	
+	public Compony() {
+		super();
+	}
+
+	public Compony(double salary) {
+		super();
+		this.salary = salary;
+	}
+
+	double getSalary() {
+		return salary;
+	}
+
+	double getAnnulIncome() {
+		return annulIncome;
+	}
+
+	double getBonus() {
+		return bonus;
+	}
+
+	double getAfterTaxBonus() {
+		return afterTaxBonus;
+	}
+	
+	
+	
+}

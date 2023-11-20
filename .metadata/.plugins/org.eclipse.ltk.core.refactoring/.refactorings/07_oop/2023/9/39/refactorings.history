@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.sh.oop.book.controller.TestBook&apos; to &apos;TestBookArray&apos;&#x0D;&#x0A;- Original project: &apos;07_oop&apos;&#x0D;&#x0A;- Original element: &apos;com.sh.oop.book.controller.TestBook&apos;&#x0D;&#x0A;- Renamed element: &apos;com.sh.oop.book.controller.TestBookArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestBook&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.sh.oop.book.controller{TestBook.java[TestBook" matchStrategy="1" name="TestBookArray" qualified="false" references="true" similarDeclarations="false" stamp="1695687327005" textual="false" version="1.0"/>
+</session>

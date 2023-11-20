@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1694507025612"/>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\dev\수업자료\JavA\수업 코드\231010.zip"/>
+			<item value="C:\dev\수업자료\JavA\수업 코드\231006.zip"/>
+			<item value="C:\dev\수업자료\JavA\수업 코드\231005.zip"/>
+			<item value="C:\dev\수업자료\JavA\수업 코드\231004.zip"/>
+			<item value="C:\dev\수업자료\JavA\230927.zip"/>
+			<item value="C:\dev\수업자료\JavA\230926.zip"/>
+			<item value="C:\dev\수업자료\JavA\230925.zip"/>
+			<item value="C:\dev\수업자료\JavA\230922.zip"/>
+			<item value="C:\dev\수업자료\JavA\230921.zip"/>
+			<item value="C:\dev\수업자료\JavA\230919.zip"/>
+			<item value="C:\dev\수업자료\JavA\230918.zip"/>
+			<item value="C:\dev\수업자료\JavA\230915.zip"/>
+			<item value="C:\dev\수업자료\JavA\230914.zip"/>
+			<item value="C:\dev\수업자료\JavA\230913.zip"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="603"/>
+		<item key="DIALOG_Y_ORIGIN" value="274"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+</section>

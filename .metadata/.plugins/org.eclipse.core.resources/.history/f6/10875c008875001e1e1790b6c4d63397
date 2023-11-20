@@ -1,0 +1,47 @@
+package compony;
+
+public class Compony {
+	private double salary;
+	private double income;
+	private double afterTaxIncome;
+	private double bonus;
+	private double afterTaxBonus;
+	
+	public Compony() {
+		super();
+	}
+
+	public Compony(double salary) {
+		super();
+		this.salary = salary;
+	}
+
+	double getSalary() {
+		return salary;
+	}
+
+	double getIncome() {
+		return salary * 12;
+	}
+
+	double getAfterTaxIncome() {
+		return (salary * 12) - ((salary * 12) * 0.1);
+	}
+
+	double getBonus() {
+		return (salary * 0.2) * 4;
+	}
+
+	double getAfterTaxBonus() {
+		return ((salary * 0.2) * 4) * 0.055;
+	}
+
+	@Override
+	public String toString() {
+		return "Compony [salary=" + salary + ", income=" + income + ", afterTaxIncome=" + afterTaxIncome + ", bonus="
+				+ bonus + ", afterTaxBonus=" + afterTaxBonus + "]";
+	}
+
+	
+	
+}

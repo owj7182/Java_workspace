@@ -1,0 +1,27 @@
+package compony;
+
+
+
+public class Test02 {
+
+	public static void main(String[] args) {
+		Compony compony = new Compony(salary);
+		if(args.length == 0) {
+			System.out.println("[오류] 정수를 프로그램에 제공해야 합니다.");
+			return; // 조기리턴
+		}
+		
+		double salary = Double.parseDouble(args[0]);
+		
+		double income = compony.getIncome();
+		double afterTaxIncome = compony.getAfterTaxIncome();
+        double bonus = compony.getBonus();
+        double afterTaxBonus = compony.getAfterTaxBonus();
+        double totalPayment = afterTaxIncome + afterTaxBonus;
+        
+        System.out.println("연 기본급 합: " + income + " 세후: " + afterTaxIncome);
+        System.out.println("연 보너스 합: " + bonus + " 세후: " + afterTaxBonus);
+        System.out.println("연 지급액 합: " + totalPayment);
+	}
+
+}

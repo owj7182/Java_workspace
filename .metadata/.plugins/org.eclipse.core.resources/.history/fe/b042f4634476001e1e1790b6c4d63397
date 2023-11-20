@@ -1,0 +1,10 @@
+package mobile;
+
+public class Ltab extends Mobile{
+
+	public Ltab() {
+		super();
+	}
+	
+	
+}

@@ -1,0 +1,14 @@
+package workshop5;
+
+public class Test05 {
+
+	public static void main(String[] args) {
+		String str = "LGcns";
+		
+		str.toUpperCase();
+		
+		System.out.println(str);
+		System.out.println();
+	}
+
+}

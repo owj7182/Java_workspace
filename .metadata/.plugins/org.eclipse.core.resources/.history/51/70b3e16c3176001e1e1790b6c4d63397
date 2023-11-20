@@ -1,0 +1,21 @@
+package compony;
+
+
+
+public class Test02 {
+
+	public static void main(String[] args) {
+		
+		if(args.length == 0) {
+			System.out.println("[오류] 정수를 프로그램에 제공해야 합니다.");
+			return; // 조기리턴
+		}
+		
+		double salary = Double.parseDouble(args[0]);
+		
+		Compony compony = new Compony(salary);
+		
+		System.out.println(compony.toString());
+	}
+
+}
